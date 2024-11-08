@@ -1,0 +1,40 @@
+main {
+    height: 33vh;
+    padding: 15vh 0 50vh 0;
+}
+
+.dropdown {
+    display: inline;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropbtn {
+    height: 10vh;
+    width: 100%;
+}
+
+.dropdown-content  {
+    display: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+span {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+span:hover {
+    background-color: #f1f1f1;
+}
